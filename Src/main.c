@@ -56,27 +56,27 @@
 /*                     EXPORTED TYPES and DEFINITIONS                         */
 /******************************************************************************/
 //define of USART2
-#define USART_BAUDRATE					57600
-#define USART_PIN_TX					GPIO_Pin_2
-#define USART_PINSOURCE_TX				GPIO_PinSource2
-#define USART_PIN_RX					GPIO_Pin_3
-#define USART_PINSOURCE_RX				GPIO_PinSource3
-#define USART_PORT						GPIOA
-#define USART_GPIO_RCC					RCC_AHB1Periph_GPIOA
-#define USART_RCC						RCC_APB1Periph_USART2
-#define USART_AF						GPIO_AF_USART2
-#define USARTX							USART2
+#define USART_BAUDRATE						57600
+#define USART_PIN_TX						GPIO_Pin_2
+#define USART_PINSOURCE_TX					GPIO_PinSource2
+#define USART_PIN_RX						GPIO_Pin_3
+#define USART_PINSOURCE_RX					GPIO_PinSource3
+#define USART_PORT							GPIOA
+#define USART_GPIO_RCC						RCC_AHB1Periph_GPIOA
+#define USART_RCC							RCC_APB1Periph_USART2
+#define USART_AF							GPIO_AF_USART2
+#define USARTX								USART2
 // Define other------------------------------------------------------------------
-#define CYCLE_SENT_DATA					1000 //Thoi gian quet sensor
-#define PERIOD_SCAN_MULTISENSOR			5000 //ms
-#define LED_LEVEL_UP					0X01u
-#define LED_LEVEL_DOWN					0X00u
-#define TIME_STEP_LEVEL					20 //20ms
+#define CYCLE_SENT_DATA						1000 //Thoi gian quet sensor
+#define PERIOD_SCAN_MULTISENSOR				5000 //ms
+#define LED_LEVEL_UP						0X01u
+#define LED_LEVEL_DOWN						0X00u
+#define TIME_STEP_LEVEL						20 //20ms
 //Buffer Data RX use to UART-----------------------------------------------------
-#define SIZE_BUFF_DATA_RX				256
-#define START_BYTE						0XB1
-#define ACK_BYTE						0X06
-#define NACK_BYTE						0X15
+#define SIZE_BUFF_DATA_RX					256
+#define START_BYTE							0XB1
+#define ACK_BYTE							0X06
+#define NACK_BYTE							0X15
 
 
 /******************************************************************************/
